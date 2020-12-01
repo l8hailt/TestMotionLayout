@@ -1,9 +1,12 @@
 package com.example.testmotionlayout
 
+import android.content.res.Resources
 import android.os.Bundle
 import android.view.WindowManager
 import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
+import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.core.view.marginTop
 import kotlinx.android.synthetic.main.activity_main.*
 
 

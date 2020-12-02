@@ -9,13 +9,13 @@
     app:layoutDescription="@xml/activity_main_scene"
     tools:context=".MainActivity">
 
-<!--    <ImageView-->
-<!--        android:id="@+id/imgBg"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="0dp"-->
-<!--        android:background="@color/colorPrimary"-->
-<!--        app:layout_constraintBottom_toBottomOf="@id/anchorCardView"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imgBg"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:background="@color/colorPrimary"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@id/anchorCardView"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
     <ImageView
         android:id="@+id/imgAccount"
@@ -41,9 +41,9 @@
 
     <ImageView
         android:id="@+id/imgItem1"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="16dp"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:src="@drawable/ic_outline_filter_1_24"
         app:layout_constraintEnd_toStartOf="@id/imgItem2"
@@ -53,8 +53,8 @@
 
     <ImageView
         android:id="@+id/imgItem2"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
         android:src="@drawable/ic_baseline_filter_2_24"
         app:layout_constraintBottom_toBottomOf="@id/imgItem1"
         app:layout_constraintEnd_toStartOf="@id/imgItem3"
@@ -63,8 +63,8 @@
 
     <ImageView
         android:id="@+id/imgItem3"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
         android:src="@drawable/ic_baseline_filter_3_24"
         app:layout_constraintBottom_toBottomOf="@id/imgItem1"
         app:layout_constraintEnd_toStartOf="@id/imgItem4"
@@ -73,9 +73,9 @@
 
     <ImageView
         android:id="@+id/imgItem4"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="16dp"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="32dp"
         android:src="@drawable/ic_baseline_filter_4_24"
         app:layout_constraintBottom_toBottomOf="@id/imgItem1"
         app:layout_constraintEnd_toEndOf="parent"

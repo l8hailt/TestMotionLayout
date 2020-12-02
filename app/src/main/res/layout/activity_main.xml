@@ -5,17 +5,8 @@
     android:id="@+id/motionLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     app:layoutDescription="@xml/activity_main_scene"
     tools:context=".MainActivity">
-
-    <!--    <ImageView-->
-    <!--        android:id="@+id/imgBg"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="0dp"-->
-    <!--        android:background="@color/colorPrimary"-->
-    <!--        app:layout_constraintBottom_toBottomOf="@id/anchorCardView"-->
-    <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
     <ImageView
         android:id="@+id/imgAccount"

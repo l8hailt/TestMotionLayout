@@ -26,10 +26,22 @@ class MainActivity : AppCompatActivity() {
         val params = motionLayout.layoutParams as FrameLayout.LayoutParams
         params.setMargins(0, getStatusBarHeight(), 0, getNavigationBarHeight())
 
-        val items = mutableListOf<String>()
-        for (i in 0..50) {
-            items.add(i.toString())
+        val items = mutableListOf<MainModel>()
+        val childItems = mutableListOf<String>()
+        val childSliderItems = mutableListOf<String>()
+        val childGrid2Items = mutableListOf<String>()
+        for (i in 0..20) {
+            childItems.add(i.toString())
         }
+        for (i in 0..3) {
+            childSliderItems.add(i.toString())
+        }
+        for (i in 0..21) {
+            childGrid2Items.add(i.toString())
+        }
+        items.add(MainModel(childItems, ItemType.GRID_4))
+        items.add(MainModel(childSliderItems, ItemType.SLIDER))
+        items.add(MainModel(childGrid2Items, ItemType.GRID_2))
         binding.recyclerView.adapter = MainAdapter(items)
 
     }
